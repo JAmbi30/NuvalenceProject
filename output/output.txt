@@ -1,0 +1,9 @@
+The position relation of two rectangles is: Intersection
+
+Coordinate of intersection point 1: 1, 6
+Coordinate of intersection point 2: 3, 6
+Coordinate of intersection point 3: 3, 2
+Coordinate of intersection point 4: 1, 2
+
+Number of intersecting lines in rectangle 1: 3
+Number of intersecting lines in rectangle 2: 1
