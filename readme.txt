@@ -3,7 +3,7 @@ Author: Jiawei Zhu
 Date: 03/18/2020
 
 Description:
-This project contains 2 programs/ outputs the position relation of two rectangles to file. 
+This program outputs the position relation of two rectangles to file. 
 There are three position relations: Intersection, Containment, and Adjacency.
 When the result is Intersection, the number of intersecting lines and
 intersection points of the rectangle are also returned. Each rectangle is 
@@ -12,14 +12,26 @@ algorithms are implemented using Java.
 
 In addition, I also built a user interface (web page) for this exercise. Tomcat 
 framework is used for web server. HTML/CSS/JavaScript/AJAX are used for front 
-end. Back end is implemented using Java.
+end. Back end is implemented using Java. The web service is deployed on AWS EC2.
 
+Github repository link for Rectangle exercise with UI: 
+https://github.com/JAmbi30/NuvalenceWebProject 
+
+--------------------------------------------------------------------------------
 Test:
 Unit tests are conducted via JUnit. Integration test for API is conducted 
 using Postman.
 
 Libraries:
 org.junit, org.json, Tomcat Framework, java.io, java.util
+
+Folder Structure:
+src/Application.java: driver class to run the program.
+src/Rectangle.java: rectangle entity implementation class.
+src/Point.java: point entity implementation class.
+src/RectangleTest.java: Junit test file.
+input/input.txt: input file.
+output/output.txt: output file.
 
 Assumptions:
  1. Each rectangle is either vertial or horizontal. Tilted rectangle is not 
